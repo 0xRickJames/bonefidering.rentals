@@ -32,9 +32,13 @@ export const Contact = (props) => {
       );
   };
   return (
+    
     <div>
+      
       <div id="contact">
+        
         <div className="container">
+          {/*}
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
@@ -95,9 +99,10 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
+            
             <div className="contact-item">
               <h3>Contact Info</h3>
-              {/*}
+              
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
@@ -113,8 +118,9 @@ export const Contact = (props) => {
                 {props.data ? props.data.phone : "loading"}
               </p>
             </div>
+            
             <div className="contact-item">
-  */}
+  
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
@@ -123,6 +129,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
+          */}
           <div className="col-md-12">
             <div className="row">
               <div className="social">

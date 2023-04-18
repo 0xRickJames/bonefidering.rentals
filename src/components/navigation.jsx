@@ -19,8 +19,17 @@ export const Navigation = (props) => {
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             Bonefide Ring Rentals
+            
           </a>{" "}
         </div>
+        <div className="contact-btn">
+                  <a
+                  href="https://www.facebook.com/frank.bones.31"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
+                  Contact Us
+                </a>{" "}
+            </div>
 {/*
         <div
           className="collapse navbar-collapse"
